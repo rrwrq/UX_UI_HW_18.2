@@ -1,0 +1,160 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+h2{
+    font-size: 14px;
+}
+
+h3{
+    font-size: 24px;
+    size: 40%;
+}
+
+h4{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+p{
+    font-weight: 300;
+    font-size: 12px;
+}
+
+header{
+    background-color: aquamarine;
+    padding: 30px;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.navigation{
+    background-color: rgb(161, 213, 178);
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    float: right;
+}
+
+.aboutPage{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    display: inline-block;
+    overflow: auto;
+    margin-top: 50px;
+    margin-left: 9%;
+    margin-right: 9%;
+    border: 1px solid black;
+}
+
+.left{
+    padding: 30px;
+    padding-left: 9%;
+    float: left;
+    /*background-color: antiquewhite; */
+}
+
+.right{
+    /*background-color: rgb(196, 196, 227); */
+    padding-left: 30px;
+    padding-right: 9%;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    width: 50%;
+    display: inline-block;
+    flex-direction: row;
+    float: right;
+}
+
+.aboutPage2{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    overflow: auto;
+    margin-left: 9%;
+    margin-top: -1%;
+}
+
+.aboutPage2 h2{
+    padding-top: 10%;
+    padding-bottom: 6%;
+}
+
+.leftBox{
+    background-color: white;
+    width: 50%;
+    float: left;
+    padding: 30px;
+    padding-left: 14%;
+    padding-right: 50%;
+    border: 1px solid black;
+}
+
+.rightBox{
+    background-color: white;
+    width: 40%;
+    float: right;
+    padding: 30px;
+    padding-left: 17.55%;
+    padding-right: 20%;
+    border: 1px solid black;
+}
+
+.rightBox p{
+    padding-top: 4%;
+}
+
+.aboutPage3{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    overflow: auto;
+    margin-left: 9%;
+    margin-top: -1%;
+}
+
+.aboutPage3 h2{
+    padding-top: 10%;
+    padding-bottom: 6%;
+}
+
+.leftBox2{
+    background-color: white;
+    width: 50%;
+    float: left;
+    padding: 30px;
+    padding-left: 14%;
+    padding-right: 50%;
+    border: 1px solid black;
+}
+
+.rightBox2{
+    background-color: white;
+    width: 40%;
+    float: right;
+    padding: 30px;
+    padding-left: 21.6%;
+    padding-right: 20%;
+    border: 1px solid black;
+}
+
+.leftBox2 p{
+    padding-top: 4%;
+}
+
+.aboutPage4{
+    margin-top: -1px;
+    margin-left: 9%;
+    margin-right: 9%;
+    padding-left: 6%;
+    padding-bottom: 70px;
+    border: 1px solid black;
+}
+
+.aboutPage4 h2{
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
