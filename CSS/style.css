@@ -7,6 +7,10 @@
     }
 }
 
+html{
+    background-color: #FAFAFA;
+}
+
 body{
     font-family: 'Inter', sans-serif;
 }
@@ -35,15 +39,19 @@ p{
     font-size: 12px;
 }
 
+a{
+    color: black;
+    text-decoration: none;
+}
+
 header{
-    background-color: aquamarine;
+    box-shadow: 0px 2px 4px -2px grey;
     padding: 30px;
     padding-left: 9%;
     padding-right: 9%;
 }
 
 .navigation{
-    background-color: rgb(161, 213, 178);
     display: inline-block;
     padding: 10px;
     text-align: center;
@@ -54,7 +62,6 @@ header{
     display: grid;
     grid-template-rows: auto auto auto auto;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    /*background-color: antiquewhite;*/
     padding-left: 19%;
     padding-right: 19%;
 }
@@ -154,7 +161,8 @@ header{
 
 footer{
     padding: 140px;
-    background-color: black;
+    margin-top: 200px;
+    background-color: #1F1F1F;
     color: white;
 }
 
